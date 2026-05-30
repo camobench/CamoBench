@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="KEYWORD1">
+  <meta property="article:tag" content="KEYWORD2">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- TODO: Replace with your lab/institution Twitter handle -->
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <!-- TODO: Replace with first author's Twitter handle -->
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <!-- TODO: Same as paper title above -->
+  <meta name="twitter:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="PAPER_TITLE">
+  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
+  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
+  <meta name="citation_publication_date" content="2024">
+  <meta name="citation_conference_title" content="CONFERENCE_NAME">
+  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>CamoBench: A Benchmark for Camouflaged Visual Illusion Generation</title>
+  <link rel="icon" href="data:,">
+
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "PAPER_TITLE",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "FIRST_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "SECOND_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+            <h1 class="title is-1 publication-title"><strong>CamoBench</strong><br><span class="publication-subtitle">A Benchmark for Camouflaged<br>Visual Illusion Generation</span></h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block" style="color: #2563eb;">Paper Under Review</span>
+            </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <!-- TODO: Replace with your GitHub repository URL -->
+                      <span class="link-block">
+                        <a href="https://github.com/camobench/CamoBench" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fab fa-github"></i>
+                        </span>
+                        <span>Code</span>
+                      </a>
+                    </span>
+
+                    <!-- TODO: Replace with your Dataset URL -->
+                    <span class="link-block">
+                      <a href="https://huggingface.co/datasets/camobench/CamoBench" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-database"></i>
+                      </span>
+                      <span>Dataset</span>
+                    </a>
+                  </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Image Gallery -->
+<section class="hero is-small gallery-section">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="gallery-row" id="gallery-row-1">
+        <div class="gallery-track" id="gallery-track-1"></div>
+      </div>
+      <div class="gallery-row" id="gallery-row-2">
+        <div class="gallery-track" id="gallery-track-2"></div>
+      </div>
+
+      <div class="gallery-caption">
+        <p class="caption-description">A camouflage visual illusion conceals objects within background textures until they are viewed under specific conditions.</p>
+        <div class="caption-detail" id="captionDetail">
+          <p><span class="caption-label">Background:</span> <span class="caption-value" id="captionBg"></span>&nbsp;<span class="caption-sep">|</span>&nbsp;<span class="caption-label">Hidden Object:</span> <span class="caption-value" id="captionObj"></span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End image gallery -->
+
+<!-- Paper abstract -->
+<section class="section hero abstract-section content-section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            Visual generative models have demonstrated impressive capabilities in synthesizing high-quality images from multimodal inputs. However, their ability to generate camouflaged visual illusions, concealing objects within background textures until viewed under specific conditions, remains underexplored. To fill this gap, we propose a novel benchmark for camouflaged visual illusion generation (CamoBench). Specifically, we construct a dataset of 512 samples and use 35 models to produce such illusions across three paradigms: (i) text-to-image, (ii) instruction-based image editing, and (iii) image-conditioned generation. A panel of human experts then evaluates 13,824 generated images across four key dimensions, with a primary focus on illusion fidelity and shape consistency. Through five research questions, our analysis reveals the capability boundaries of existing models. Moreover, we explore Multi-scale Distance Simulation (MDS), an automated baseline based on multimodal large language models to assess illusion effectiveness by simulating human viewing distances. Overall, this study establishes a reliable benchmark to facilitate and evaluate future progress.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Overview -->
+<section class="section hero content-section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            CamoBench is designed to facilitate research on camouflaged visual illusion generation. It provides a high-quality benchmark, model-generated samples, task-specific evaluation dimensions, human scores, and an automated evaluation baseline. This task is closely related to applications such as human-specific CAPTCHAs, visual design, advertising, digital entertainment, and cognitive training. It also serves as a stringent testbed for visual generative models. We provide partial data (test data, a subset of model-generated images, and corresponding human scores). The full dataset will be released upon paper acceptance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End overview -->
+
+
+<!-- Examples & Statistics -->
+<section class="section hero content-section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Dataset Examples &amp; Statistics</h2>
+        <div class="img-carousel" id="imgCarousel">
+          <div class="carousel-viewport">
+            <div class="carousel-slides" id="carouselSlides"></div>
+          </div>
+          <p class="carousel-caption" id="carouselCaption"></p>
+          <div class="carousel-nav" id="carouselNav"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End examples & statistics -->
+
+
+<!-- Results and Analysis -->
+<section class="section hero content-section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Results and Analysis</h2>
+    <div class="results-panel" id="resultsChartContainer">
+      <div class="results-sidebar" id="resultsChecklist"></div>
+      <div class="results-chart-area">
+        <canvas id="resultsChart"></canvas>
+      </div>
+    </div>
+
+    <div class="results-keyfindings">
+      <div class="results-keyfindings-left">
+        <img src="static/images/tradeoff.jpg" alt="Trade-off comparison across paradigms" loading="lazy">
+        <p class="results-caption">Representative outputs for the same background-object pair across generation paradigms. In-image annotations highlight paradigm-specific visual behaviors and trade-offs.</p>
+      </div>
+      <div class="results-keyfindings-right">
+        <h3 class="title is-5">Inter / Intra Paradigm Variations</h3>
+        <ul>
+          <li>Instruction Ignoring or Alignment without Hiding (T2I). Diffusion Transformers better balance concealment and visual quality than U-Nets.</li>
+          <li>Instruction Ignoring or Destructive Pasting (Editing). Editing models tend to either under-edit or over-edit.</li>
+          <li>Structure over Quality (CondGen). QR Code Monster outperforms other control mechanisms.</li>
+          <li>Stronger foundation models improve camouflage synthesis.</li>
+          <li>Overall, no paradigm fully resolves the task.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="results-heatmap">
+      <div class="results-heatmap-row">
+        <div class="results-heatmap-left">
+          <img src="static/images/heatmap.jpg" alt="Heatmap of performance across texture and object categories" loading="lazy">
+        </div>
+        <div class="results-heatmap-right">
+          <h3 class="title is-5">Attribute Influence Analysis</h3>
+          <ul>
+            <li>High-Frequency textures maximize concealment, while Directional textures better balance it with image quality.</li>
+            <li>Low-Frequency textures leave objects exposed, while Structured textures introduce visual artifacts.</li>
+            <li>Abstract shapes are harder to hide than physical objects.</li>
+            <li>Directional textures paired with Rigid or Non-Rigid Objects perform best, while Structured textures paired with Textual Elements or Geometry &amp; Shapes perform worst.</li>
+            <li>Camouflage success depends on background-object fit.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="results-caption">Overall performance across 16 combinations of background textures and hidden object categories, averaged across all evaluated models.</p>
+    </div>
+
+    <div class="results-auto">
+      <h3 class="title is-5">Automated Evaluation Alignment</h3>
+      <div class="results-auto-row">
+        <div class="results-auto-left">
+          <img src="static/images/mds.jpg" alt="MDS strategy overview" loading="lazy">
+          <p class="results-caption">Overview of the MDS strategy. It uses a two-turn evaluation: first judging the original image, then refining the score with downsampled views that simulate distant observation.</p>
+        </div>
+        <div class="results-auto-right">
+          <img src="static/images/mdsexp.jpg" alt="MDS experiment results" loading="lazy">
+          <p class="results-caption">Correlation (PLCC / SRCC, % &uarr;) between automated scores and human judgments. Bold indicates the best result within each group, and underlining indicates the best result overall.</p>
+        </div>
+      </div>
+      <ul class="results-auto-points">
+        <li>Conventional visual metrics perform adequately on explicit dimensions but struggle with illusion-specific dimensions.</li>
+        <li>Direct MLLM-as-a-Judge evaluators improve overall correlation but still yield low alignment on IF and ISC.</li>
+        <li>MDS consistently improves MLLM correlations on both IF and ISC, offering a baseline for automated illusion evaluation.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End results and analysis -->
+
+<!-- Error Examples -->
+<section class="section hero content-section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Error Examples</h2>
+    <div class="results-error">
+      <img src="static/images/error.jpg" alt="Error case studies" loading="lazy">
+      <p class="results-caption">Case studies on errors observed in CamoBench. We present one illustrative example for each of the eight major error types. We sort these errors in descending order of severity, from Type 1 (indicating the most serious errors) to Type 8 (indicating the least serious errors). We also provide human scores on each dimension for reference.</p>
+      <div class="results-error-types">
+        <p><strong>Type 1: Severe Structural Corruption.</strong> The image contains unrecognizable content or severe geometric distortion, e.g., distorted suspension bridge cables (Case 1).</p>
+        <p><strong>Type 2: Scene Semantic Mismatch.</strong> Generated background conflicts with the text prompt, e.g., failing to depict &ldquo;ramen with green onions&rdquo; (Case 2).</p>
+        <p><strong>Type 3: Concept Omission.</strong> Model ignores instruction, yielding an image without hidden objects, e.g., failing to generate the &ldquo;square shape&rdquo; (Case 3).</p>
+        <p><strong>Type 4: Illusion Structural Deviation.</strong> The hidden target is generated with an inaccurate or distorted structure, e.g., the character deviating from the target outline (Case 4).</p>
+        <p><strong>Type 5: Blatant Pasting Effect.</strong> The hidden target lacks visual blending, appearing as a pasted foreground element, e.g., the anchor directly overlaid on the background (Case 5).</p>
+        <p><strong>Type 6: Independent Object Manifestation.</strong> The model renders the hidden object as an independent physical entity rather than integrating it into the background, e.g., a standalone maple leaf placed on the LEGO bricks (Case 6).</p>
+        <p><strong>Type 7: Traceable Manipulation.</strong> The background exhibits artificial traces arranged to form the target outline, e.g., unnatural shadows on the cathedral columns (Case 7).</p>
+        <p><strong>Type 8: Suboptimal Camouflage.</strong> The hidden object&rsquo;s outline remains too visible, weakening the camouflage effect, e.g., the distinct cat outline in the latte art (Case 8).</p>
+      </div>
+
+      <div class="results-panel" id="resultsErrorChartContainer">
+        <div class="results-sidebar" id="resultsErrorChecklist"></div>
+        <div class="results-chart-area">
+          <canvas id="resultsErrorChart"></canvas>
+        </div>
+      </div>
+
+      <ul class="results-auto-points">
+        <li>T2I and Editing paradigms frequently suffer from Concept Omission.</li>
+        <li>The CondGen paradigm reduces omission errors but is highly prone to the Blatant Pasting Effect.</li>
+        <li>The T2I paradigm often exhibits Independent Object Manifestation.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End error examples -->
+
+<!-- Conclusion -->
+<section class="section hero content-section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Conclusion &amp; Contributions</h2>
+    <div class="content has-text-justified">
+      <p>We present CamoBench, the first benchmark for camouflaged visual illusion generation. Our results show that current models struggle with Illusion Fidelity, often exposing, omitting, or crudely pasting hidden objects rather than blending them into backgrounds. With a standardized benchmark, an automated baseline, and analysis, CamoBench lays a foundation for camouflaged visual illusion synthesis, with potential applications such as human-specific CAPTCHAs, marketing and advertising, aesthetic design in fashion, digital entertainment, and cognitive training. It also serves as a stringent testbed for visual generative models.</p>
+    </div>
+  </div>
+</section>
+<!-- End conclusion -->
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  <script src="static/js/gallery-config.js"></script>
+  <script src="static/js/gallery-labels.js"></script>
+  <script src="static/js/gallery.js"></script>
+  <script src="static/js/carousel-config.js"></script>
+  <script src="static/js/carousel.js"></script>
+  <script src="static/js/results-data.js"></script>
+  <script src="static/js/results-chart.js"></script>
+  <script src="static/js/results-data-errors.js"></script>
+  <script src="static/js/results-chart-errors.js"></script>
+
+  </body>
+  </html>
