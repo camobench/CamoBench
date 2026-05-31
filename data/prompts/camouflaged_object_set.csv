@@ -1,0 +1,129 @@
+id,Super-category,Sub-category,Description,Reference Image
+1,Textual Elements,Single Character,the character T,001_textual_elements_single_character_t.png
+2,Textual Elements,Single Character,the character X,002_textual_elements_single_character_x.png
+3,Textual Elements,Single Character,the character S,003_textual_elements_single_character_s.png
+4,Textual Elements,Single Character,the character 2,004_textual_elements_single_character_2.png
+5,Textual Elements,Single Character,the character A,005_textual_elements_single_character_a.png
+6,Textual Elements,Single Character,the character P,006_textual_elements_single_character_p.png
+7,Textual Elements,Single Character,the character 8,007_textual_elements_single_character_8.png
+8,Textual Elements,Single Character,the ampersand symbol (&),008_textual_elements_single_character_ampersand.png
+9,Textual Elements,Short Word,the word AI,009_textual_elements_short_word_ai.png
+10,Textual Elements,Short Word,the word CAT,010_textual_elements_short_word_cat.png
+11,Textual Elements,Short Word,the word DOG,011_textual_elements_short_word_dog.png
+12,Textual Elements,Short Word,the word SKY,012_textual_elements_short_word_sky.png
+13,Textual Elements,Short Word,the word DREAM,013_textual_elements_short_word_dream.png
+14,Textual Elements,Short Word,the word MAGIC,014_textual_elements_short_word_magic.png
+15,Textual Elements,Short Word,the word NATURE,015_textual_elements_short_word_nature.png
+16,Textual Elements,Short Word,the word FUTURE,016_textual_elements_short_word_future.png
+17,Textual Elements,Long Word,the word INTELLIGENCE,017_textual_elements_long_word_intelligence.png
+18,Textual Elements,Long Word,the word SUSTAINABILITY,018_textual_elements_long_word_sustainability.png
+19,Textual Elements,Long Word,the word CRYPTOCURRENCY,019_textual_elements_long_word_cryptocurrency.png
+20,Textual Elements,Long Word,the word CONGRATULATIONS,020_textual_elements_long_word_congratulations.png
+21,Textual Elements,Long Word,the word REVOLUTIONARY,021_textual_elements_long_word_revolutionary.png
+22,Textual Elements,Long Word,the word ARCHITECTURAL,022_textual_elements_long_word_architectural.png
+23,Textual Elements,Long Word,the word PHOTOGRAPHY,023_textual_elements_long_word_photography.png
+24,Textual Elements,Long Word,the word PHILOSOPHY,024_textual_elements_long_word_philosophy.png
+25,Textual Elements,Non-Latin Character,the Chinese character 人,025_textual_elements_non_latin_character_char_cn_ren.png
+26,Textual Elements,Non-Latin Character,the Chinese character 中,026_textual_elements_non_latin_character_char_cn_zhong.png
+27,Textual Elements,Non-Latin Character,the Chinese character 好,027_textual_elements_non_latin_character_char_cn_hao.png
+28,Textual Elements,Non-Latin Character,the Chinese character 赢,028_textual_elements_non_latin_character_char_cn_ying.png
+29,Textual Elements,Non-Latin Character,the Japanese Hiragana character あ,029_textual_elements_non_latin_character_char_jp_a.png
+30,Textual Elements,Non-Latin Character,the Japanese Hiragana character の,030_textual_elements_non_latin_character_char_jp_no.png
+31,Textual Elements,Non-Latin Character,the symbol ☺ (smiley face),031_textual_elements_non_latin_character_symbol_smiley.png
+32,Textual Elements,Non-Latin Character,the uppercase Greek letter Ω,032_textual_elements_non_latin_character_symbol_omega.png
+33,Geometry & Shapes,Basic Convex Shape,the shape of a circle,033_geometry_and_shapes_basic_convex_shape_circle.png
+34,Geometry & Shapes,Basic Convex Shape,the shape of a square,034_geometry_and_shapes_basic_convex_shape_square.png
+35,Geometry & Shapes,Basic Convex Shape,the shape of a triangle,035_geometry_and_shapes_basic_convex_shape_triangle.png
+36,Geometry & Shapes,Basic Convex Shape,the shape of a rectangle,036_geometry_and_shapes_basic_convex_shape_rectangle.png
+37,Geometry & Shapes,Basic Convex Shape,the shape of an oval,037_geometry_and_shapes_basic_convex_shape_oval.png
+38,Geometry & Shapes,Basic Convex Shape,the shape of a pentagon,038_geometry_and_shapes_basic_convex_shape_pentagon.png
+39,Geometry & Shapes,Basic Convex Shape,the shape of a hexagon,039_geometry_and_shapes_basic_convex_shape_hexagon.png
+40,Geometry & Shapes,Basic Convex Shape,the shape of an octagon,040_geometry_and_shapes_basic_convex_shape_octagon.png
+41,Geometry & Shapes,Basic Convex Shape,the shape of a rhombus,041_geometry_and_shapes_basic_convex_shape_rhombus.png
+42,Geometry & Shapes,Basic Convex Shape,the shape of a parallelogram,042_geometry_and_shapes_basic_convex_shape_parallelogram.png
+43,Geometry & Shapes,Basic Convex Shape,the shape of a trapezoid,043_geometry_and_shapes_basic_convex_shape_trapezoid.png
+44,Geometry & Shapes,Basic Convex Shape,the shape of a semicircle,044_geometry_and_shapes_basic_convex_shape_semicircle.png
+45,Geometry & Shapes,Basic Convex Shape,the shape of an annulus,045_geometry_and_shapes_basic_convex_shape_annulus.png
+46,Geometry & Shapes,Basic Convex Shape,the shape of a capsule,046_geometry_and_shapes_basic_convex_shape_capsule_shape.png
+47,Geometry & Shapes,Basic Convex Shape,the shape of a sector (pie slice),047_geometry_and_shapes_basic_convex_shape_sector.png
+48,Geometry & Shapes,Basic Convex Shape,the shape of a chevron,048_geometry_and_shapes_basic_convex_shape_chevron.png
+49,Geometry & Shapes,Complex Concave Shape & Icon,the shape of a star,049_geometry_and_shapes_complex_concave_shape_and_icon_star.png
+50,Geometry & Shapes,Complex Concave Shape & Icon,the shape of a heart,050_geometry_and_shapes_complex_concave_shape_and_icon_heart.png
+51,Geometry & Shapes,Complex Concave Shape & Icon,the shape of a crescent moon,051_geometry_and_shapes_complex_concave_shape_and_icon_crescent_moon.png
+52,Geometry & Shapes,Complex Concave Shape & Icon,the shape of a greek cross,052_geometry_and_shapes_complex_concave_shape_and_icon_cross.png
+53,Geometry & Shapes,Complex Concave Shape & Icon,the shape of an arrow,053_geometry_and_shapes_complex_concave_shape_and_icon_arrow.png
+54,Geometry & Shapes,Complex Concave Shape & Icon,the shape of a lightning bolt,054_geometry_and_shapes_complex_concave_shape_and_icon_lightning_bolt.png
+55,Geometry & Shapes,Complex Concave Shape & Icon,a cloud icon shape,055_geometry_and_shapes_complex_concave_shape_and_icon_cloud_shape.png
+56,Geometry & Shapes,Complex Concave Shape & Icon,a checkmark symbol,056_geometry_and_shapes_complex_concave_shape_and_icon_checkmark.png
+57,Geometry & Shapes,Complex Concave Shape & Icon,a question mark symbol,057_geometry_and_shapes_complex_concave_shape_and_icon_question_mark.png
+58,Geometry & Shapes,Complex Concave Shape & Icon,a musical note symbol,058_geometry_and_shapes_complex_concave_shape_and_icon_musical_note.png
+59,Geometry & Shapes,Complex Concave Shape & Icon,a Yin-Yang symbol,059_geometry_and_shapes_complex_concave_shape_and_icon_taiji.png
+60,Geometry & Shapes,Complex Concave Shape & Icon,a wifi symbol,060_geometry_and_shapes_complex_concave_shape_and_icon_wifi_symbol.png
+61,Geometry & Shapes,Complex Concave Shape & Icon,a spade symbol (playing card suit),061_geometry_and_shapes_complex_concave_shape_and_icon_spade.png
+62,Geometry & Shapes,Complex Concave Shape & Icon,a club symbol (playing card suit),062_geometry_and_shapes_complex_concave_shape_and_icon_club.png
+63,Geometry & Shapes,Complex Concave Shape & Icon,the shape of a cogwheel,063_geometry_and_shapes_complex_concave_shape_and_icon_cogwheel.png
+64,Geometry & Shapes,Complex Concave Shape & Icon,a spiral shape,064_geometry_and_shapes_complex_concave_shape_and_icon_spiral.png
+65,Rigid Objects,Vehicles,a sedan car,065_rigid_objects_vehicles_sedan_car.png
+66,Rigid Objects,Vehicles,an airplane,066_rigid_objects_vehicles_airplane.png
+67,Rigid Objects,Vehicles,a bicycle,067_rigid_objects_vehicles_bicycle.png
+68,Rigid Objects,Vehicles,a truck,068_rigid_objects_vehicles_truck.png
+69,Rigid Objects,Vehicles,a sailboat,069_rigid_objects_vehicles_sailboat.png
+70,Rigid Objects,Vehicles,a helicopter,070_rigid_objects_vehicles_helicopter.png
+71,Rigid Objects,Vehicles,a steam train,071_rigid_objects_vehicles_steam_train.png
+72,Rigid Objects,Vehicles,a motorcycle,072_rigid_objects_vehicles_motorcycle.png
+73,Rigid Objects,Vehicles,a bus,073_rigid_objects_vehicles_bus.png
+74,Rigid Objects,Vehicles,a tank,074_rigid_objects_vehicles_tank.png
+75,Rigid Objects,Vehicles,a UFO,075_rigid_objects_vehicles_ufo.png
+76,Rigid Objects,Architectural Structures,the Eiffel Tower,076_rigid_objects_architectural_structures_eiffel_tower.png
+77,Rigid Objects,Architectural Structures,the Pyramid,077_rigid_objects_architectural_structures_pyramid.png
+78,Rigid Objects,Architectural Structures,a castle,078_rigid_objects_architectural_structures_castle.png
+79,Rigid Objects,Architectural Structures,a skyscraper,079_rigid_objects_architectural_structures_skyscraper.png
+80,Rigid Objects,Architectural Structures,a bridge,080_rigid_objects_architectural_structures_bridge.png
+81,Rigid Objects,Architectural Structures,a lighthouse,081_rigid_objects_architectural_structures_lighthouse.png
+82,Rigid Objects,Architectural Structures,a windmill,082_rigid_objects_architectural_structures_windmill.png
+83,Rigid Objects,Architectural Structures,a pagoda,083_rigid_objects_architectural_structures_pagoda.png
+84,Rigid Objects,Architectural Structures,the Colosseum,084_rigid_objects_architectural_structures_colosseum.png
+85,Rigid Objects,Architectural Structures,a torii gate,085_rigid_objects_architectural_structures_torii_gate.png
+86,Rigid Objects,Architectural Structures,an igloo,086_rigid_objects_architectural_structures_igloo.png
+87,Rigid Objects,Rigid Appliances,a chair,087_rigid_objects_rigid_appliances_chair.png
+88,Rigid Objects,Rigid Appliances,a desk,088_rigid_objects_rigid_appliances_desk.png
+89,Rigid Objects,Rigid Appliances,a guitar,089_rigid_objects_rigid_appliances_guitar.png
+90,Rigid Objects,Rigid Appliances,an analog clock,090_rigid_objects_rigid_appliances_analog_clock.png
+91,Rigid Objects,Rigid Appliances,a camera,091_rigid_objects_rigid_appliances_camera.png
+92,Rigid Objects,Rigid Appliances,an umbrella,092_rigid_objects_rigid_appliances_umbrella.png
+93,Rigid Objects,Rigid Appliances,a key,093_rigid_objects_rigid_appliances_key.png
+94,Rigid Objects,Rigid Appliances,scissors,094_rigid_objects_rigid_appliances_scissors.png
+95,Rigid Objects,Rigid Appliances,a pair of eyeglasses,095_rigid_objects_rigid_appliances_glasses.png
+96,Rigid Objects,Rigid Appliances,an anchor,096_rigid_objects_rigid_appliances_anchor.png
+97,Non-Rigid Objects,Animals,a cat,097_non_rigid_objects_animals_cat.png
+98,Non-Rigid Objects,Animals,a dog,098_non_rigid_objects_animals_dog.png
+99,Non-Rigid Objects,Animals,an elephant,099_non_rigid_objects_animals_elephant.png
+100,Non-Rigid Objects,Animals,a lion,100_non_rigid_objects_animals_lion.png
+101,Non-Rigid Objects,Animals,a horse,101_non_rigid_objects_animals_horse.png
+102,Non-Rigid Objects,Animals,a deer,102_non_rigid_objects_animals_deer.png
+103,Non-Rigid Objects,Animals,a rabbit,103_non_rigid_objects_animals_rabbit.png
+104,Non-Rigid Objects,Animals,a bear,104_non_rigid_objects_animals_bear.png
+105,Non-Rigid Objects,Animals,a wolf,105_non_rigid_objects_animals_wolf.png
+106,Non-Rigid Objects,Animals,a snake,106_non_rigid_objects_animals_snake.png
+107,Non-Rigid Objects,Animals,a koi fish,107_non_rigid_objects_animals_fish.png
+108,Non-Rigid Objects,Plants,an oak tree,108_non_rigid_objects_plants_oak_tree.png
+109,Non-Rigid Objects,Plants,a pine tree,109_non_rigid_objects_plants_pine_tree.png
+110,Non-Rigid Objects,Plants,a rose,110_non_rigid_objects_plants_rose.png
+111,Non-Rigid Objects,Plants,a sunflower,111_non_rigid_objects_plants_sunflower.png
+112,Non-Rigid Objects,Plants,a maple leaf,112_non_rigid_objects_plants_maple_leaf.png
+113,Non-Rigid Objects,Plants,a mushroom,113_non_rigid_objects_plants_mushroom.png
+114,Non-Rigid Objects,Plants,a cactus,114_non_rigid_objects_plants_cactus.png
+115,Non-Rigid Objects,Plants,a fern,115_non_rigid_objects_plants_fern.png
+116,Non-Rigid Objects,Plants,a lotus,116_non_rigid_objects_plants_lotus.png
+117,Non-Rigid Objects,Plants,a palm tree,117_non_rigid_objects_plants_palm_tree.png
+118,Non-Rigid Objects,Plants,coral,118_non_rigid_objects_plants_coral.png
+119,Non-Rigid Objects,Human Bodies,a face silhouette,119_non_rigid_objects_human_bodies_face_silhouette.png
+120,Non-Rigid Objects,Human Bodies,a face,120_non_rigid_objects_human_bodies_face.png
+121,Non-Rigid Objects,Human Bodies,the palm of a hand,121_non_rigid_objects_human_bodies_hand_palm.png
+122,Non-Rigid Objects,Human Bodies,an eye,122_non_rigid_objects_human_bodies_eye.png
+123,Non-Rigid Objects,Human Bodies,lips,123_non_rigid_objects_human_bodies_lips.png
+124,Non-Rigid Objects,Human Bodies,a skull,124_non_rigid_objects_human_bodies_skull.png
+125,Non-Rigid Objects,Human Bodies,a ballet dancer,125_non_rigid_objects_human_bodies_dancer.png
+126,Non-Rigid Objects,Human Bodies,a baby,126_non_rigid_objects_human_bodies_baby.png
+127,Non-Rigid Objects,Human Bodies,a brain,127_non_rigid_objects_human_bodies_brain.png
+128,Non-Rigid Objects,Human Bodies,an anatomical heart,128_non_rigid_objects_human_bodies_heart_organ.png
